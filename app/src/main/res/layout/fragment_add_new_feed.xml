@@ -1,0 +1,69 @@
+<android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="4dp"
+    android:layout_centerVertical="true"
+    android:layout_marginTop="60dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    tools:context="com.sunitha.rssfeedaggregator.AddNewFeedFragment">
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:id="@+id/newFeed"
+        android:background="@color/bkg_card"
+        android:text="@string/newfeed"
+        android:contentDescription="@string/newfeed"
+        />
+    <TextView
+        android:layout_width="187dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="60dp"
+        android:id="@+id/title"
+        android:text="@string/title"
+        android:contentDescription="@string/title"
+        />
+
+    <EditText
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:id="@+id/editTextTitle"
+        android:layout_gravity="center_horizontal|top" />
+
+    <TextView
+        android:layout_width="187dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="120dp"
+        android:text="@string/url"
+        android:id="@+id/textView"
+        android:contentDescription="@string/url"/>
+    <EditText
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextUrl"
+        android:layout_marginTop="120dp"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/OK"
+        android:background="@color/bkg_card"
+        android:layout_marginTop="180dp"
+        android:id="@+id/buttonOK"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/OK"
+        />
+
+</FrameLayout>
+    </android.support.v7.widget.CardView>
